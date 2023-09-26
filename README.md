@@ -29,3 +29,11 @@ This repository contains the module three assignment solutions.
 > - Average greater than or equal 40 is 'C'
 > - Average greater than or equal 33 is 'D'
 > - Otherwise 'F'
+
+
+### Task 5: Password Generator
+- It uses a function to generate password of the provided length which includes at least 1 UPPERCASE letter, 1 lowercase letter, 1 number and 1 symbol.
+
+> **Warning**
+>
+> - This script generates at least a 4 character password which includes the characters mentioned above.
