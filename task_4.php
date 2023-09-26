@@ -3,24 +3,6 @@
  * Task 4: Multidimensional Array
  * Create a multidimensional array called $studentGrades to store the grades of three students. Each student has grades for three subjects: Math, English, and Science. Write a PHP function which takes "$studentGrades" as an argument to calculate and print the average grade for each student.
  */
-$studentGrades = [
-    'student_1' => [
-        'Math' => 70,
-        'English' => 90,
-        'Science' => 80
-    ],
-    'student_2' => [
-        'Math' => 90,
-        'English' => 65,
-        'Science' => 70,
-    ],
-    'student_3' => [
-        'Math' => 85,
-        'English' => 90,
-        'Science' => 87
-    ]
-];
-
 /**
  * Calculates and prints Average grade of given students.
  */
@@ -50,4 +32,24 @@ function averageGrade(array $studentGrades): void {
         printf($print_format, $key, $grade);
     }
 }
+
+$studentGrades = [
+    'student_1' => [
+        'Math' => 70,
+        'English' => 90,
+        'Science' => 80
+    ],
+    'student_2' => [
+        'Math' => 90,
+        'English' => 65,
+        'Science' => 70,
+    ],
+    'student_3' => [
+        'Math' => 85,
+        'English' => 90,
+        'Science' => 87
+    ]
+];
+
+
 averageGrade($studentGrades);
