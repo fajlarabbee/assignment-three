@@ -5,7 +5,7 @@
  */
 
  $grades = [85, 92, 78, 88, 95];
- function descSort(array $grades) {
+ function descSort(array $grades): void {
    rsort($grades, SORT_NUMERIC);
    print_r($grades);
  }
