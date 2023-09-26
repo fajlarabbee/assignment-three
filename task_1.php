@@ -8,7 +8,7 @@
  * Print the modified text.
  */
 
- function convertCase(string $text) : void {
+ function convertCase(string $text): void {
     echo str_replace('brown', 'red', strtolower($text));
  }
  $text = "The quick brown fox jumps over the lazy dog.";
