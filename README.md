@@ -7,3 +7,6 @@ This repository contains the module three assignment solutions.
 
 ### Task 2: Array Manipulation
 - It uses a function which takes an array as an argument and returns an array of odd numbers which is then printed as output.
+
+### Task 3: Array Sorting
+- It uses a function to print the given array by sorting in descending order.
